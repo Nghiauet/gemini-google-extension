@@ -69,7 +69,7 @@ interface ProviderConfig {
 export const PROVIDER_CONFIG_DEFAULT = {
   [ProviderType.Gemini]: {
     baseUrl: 'https://generativelanguage.googleapis.com', 
-    models: ['gemini-1.5-flash-latest','gemini-1.5-pro-latest','gemini-1.0-pro-latest','gemini-1.0-pro']
+    models: ['gemini-1.5-flash','gemini-1.5-pro','gemini-1.0-pro']
   },
   [ProviderType.OpenAI]: {
     baseUrl: 'https://api.openai.com',
